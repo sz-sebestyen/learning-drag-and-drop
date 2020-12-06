@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Learn drag and drop</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="./script.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="slot" ondrop="drop_handler(event)" ondragover="dragover_handler(event)">
+			<div class="item" id="item-1" draggable="true">
+				Drag this item!
+			</div>
+		</div>
+		<div class="slot" ondrop="drop_handler(event)" ondragover="dragover_handler(event)">
+
+		</div>
+	</div>
+
+</body>
+
+</html>
